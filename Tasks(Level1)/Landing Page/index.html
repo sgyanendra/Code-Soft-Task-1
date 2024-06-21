@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife - Your Fitness Companion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>FitLife</h1>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h2>Welcome to FitLife</h2>
+                <p>Your ultimate fitness companion. Track your workouts, monitor your progress, and stay motivated.</p>
+                <a href="#features" class="btn">Learn More</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About FitLife</h2>
+                <p>FitLife is a cutting-edge fitness app designed to help you achieve your fitness goals. Whether you're a beginner or a seasoned athlete, FitLife provides personalized workout plans, nutritional advice, and progress tracking to keep you on the right path.</p>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container">
+                <h2>Features</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <img src="./images/per-training.jpg" alt="Personalized Workouts">
+                        <h3>Personalized Workouts</h3>
+                        <p>Get customized workout plans tailored to your fitness level and goals.</p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="./images/plan.webp" alt="Nutrition Plans">
+                        <h3>Nutrition Plans</h3>
+                        <p>Receive expert nutritional advice and meal plans to complement your workouts.</p>
+                    </div>
+                    <div class="feature-item" >
+                        <img src="./images/progress.webp" alt="Progress Tracking">
+                        <h3>Progress Tracking</h3>
+                        <p>Monitor your progress with detailed statistics and analytics.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <div class="container">
+                <h2>What Our Users Say</h2>
+                <div class="testimonial">
+                    <p>"FitLife has completely transformed my fitness journey. The personalized workouts and progress tracking are fantastic!"</p>
+                    <cite>- Alex Smith</cite>
+                </div>
+                <div class="testimonial">
+                    <p>"I love how easy it is to use FitLife. The nutrition plans have helped me improve my diet and overall health."</p>
+                    <cite>- Jamie Lee</cite>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form  method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 FitLife. All rights reserved.</p>
+            
+        </div>
+    </footer>
+</body>
+</html>
